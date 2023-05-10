@@ -1,0 +1,324 @@
+.profile {
+  height: 100vh;
+  width: 100%;
+  background-color: #e5e5e5;
+}
+
+/* for all placeholder */
+
+input[type="text"]::placeholder {
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #b8c4ce;
+}
+
+input[type="password"]::placeholder {
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #b8c4ce;
+}
+/*  */
+.head-profile {
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 166px;
+  height: 48px;
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #5f6b7a;
+}
+
+.formular .left-part-profile {
+  margin-top: 20px;
+  width: 424px;
+}
+
+/* div 1 */
+.form-full-name {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-name {
+  margin-bottom: 10px;
+  width: 117px;
+  height: 27px;
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5f6b7a;
+}
+
+.input-full-name {
+  width: 370px;
+  height: 46px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #ffffff;
+  border: 1px solid #cfd6de;
+  box-sizing: border-box;
+  border-radius: 50px;
+  text-indent: 19px;
+}
+
+/*  div 2*/
+
+.form-enter-email {
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.enter-email {
+  width: 89px;
+  height: 27px;
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5f6b7a;
+}
+
+.input-enter-email {
+  width: 370px;
+  height: 46px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  background: #ffffff;
+  /* neutral-3 */
+
+  border: 1px solid #cfd6de;
+  box-sizing: border-box;
+  border-radius: 50px;
+
+  text-indent: 19px;
+}
+
+/* div 3 */
+
+.form-enter-password {
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.enter-password {
+  width: 122px;
+  height: 27px;
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5f6b7a;
+}
+
+.input-enter-password {
+  width: 370px;
+  height: 46px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  background: #ffffff;
+  /* neutral-3 */
+
+  border: 1px solid #cfd6de;
+  box-sizing: border-box;
+  border-radius: 50px;
+
+  text-indent: 19px;
+}
+
+/* div 4 */
+.all-fields {
+  margin-top: 44px;
+  margin-left: 40px;
+}
+
+.fields {
+  width: 188px;
+  height: 27px;
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ff633b;
+}
+
+/* partea dreapta */
+
+.right-part-profile {
+  margin-left: 14px;
+  margin-top: 20px;
+  width: 424px;
+}
+
+/* formular */
+
+.formular {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar-title {
+  width: 103px;
+  height: 27px;
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5f6b7a;
+}
+
+/*  */
+.upload {
+  margin-top: 10px;
+  width: 370px;
+  height: 139px;
+  background: #ffffff;
+  /* neutral-3 */
+
+  border: 1px solid #cfd6de;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.img-title {
+  width: 128px;
+  height: 27px;
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5f6b7a;
+}
+.img-avatar {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 21px;
+}
+
+.upload {
+  display: flex;
+  flex-direction: row;
+}
+
+.upload-image {
+  /* margin-top: 31px; */
+  /* margin-left: 21px; */
+  display: flex;
+  /* flex-direction: column; */
+}
+
+input[type="file"] {
+  margin-top: 11px;
+  width: 179px;
+  height: 48px;
+  border-radius: 50px;
+  background: #00c7c7;
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  margin-top: 11px;
+  width: 179px;
+  height: 48px;
+  border-radius: 50px;
+  background: #00c7c7;
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+/* form user parole */
+
+.form-user-parole {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-parole {
+  width: 132px;
+  height: 27px;
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5f6b7a;
+}
+
+.input-user-parole {
+  width: 370px;
+  height: 46px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 50px;
+  border: 1px solid #cfd6de;
+  box-sizing: border-box;
+  text-indent: 19px;
+}
+
+.reset-submit {
+  margin-top: 40px;
+}
+
+.reset {
+  width: 178px;
+  height: 48px;
+  margin-right: 14px;
+  border-radius: 50px;
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 700 bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #efac00;
+  border: 2px solid #efac00;
+}
+
+.submit {
+  width: 178px;
+  height: 48px;
+  background: #efac00;
+  border-radius: 50px;
+  border: none;
+  font-family: "Almarai";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+button {
+  cursor: pointer;
+}

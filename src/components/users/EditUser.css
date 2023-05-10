@@ -1,0 +1,87 @@
+.prj02 {
+    margin: 40px 0px 0px 40px;
+  }
+  .Title02 {
+    font-family: "Almarai";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #5f6b7a;
+    display:inline;
+    margin: 0px;
+  }
+  .user02 {
+    font-family: "Almarai";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    display:inline;
+    color: #8895a7;
+  }
+  
+  .label02 {
+    width: auto;
+    font-family: "Almarai";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px 0px 10px 0px;
+    color: #5f6b7a;
+  }
+  
+  .container02 {
+    width: 370px;
+    height: 149px;
+    left: 642px;
+    top: 205px;
+  
+    background: #ffffff;
+    border: 1px solid #cfd6de;
+    box-sizing: border-box;
+    border-radius: 25px;
+  }
+  
+  .img02 {
+    width: 108px;
+    height: 108px;
+    float: left;
+    margin: 21px;
+    border-radius: 55.5px;
+  }
+  .input02:focus {
+    outline: none !important;
+    border-color: #719ece;
+    box-shadow: 0 0 10px #719ece;
+  }
+  .input02 {
+    box-shadow: 2px 2px #b8c4ce;
+    width: 363px;
+    height: 45px;
+  
+    border-radius: 50px;
+    border: 0.1px solid #cfd6de;
+    text-indent: 19px;
+    background: #ffffff;
+  }
+  
+  .add02 {
+    width: 400px;
+  }
+  .required02 {
+    width: 370px;
+    height: 27px;
+    margin-top: 44px;
+    /* Paragraph */
+  
+    color: #ff633b;
+    font-family: "Almarai";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  
+  .check02 {
+    margin-top: 40px;
+  }
+  

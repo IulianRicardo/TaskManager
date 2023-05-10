@@ -1,0 +1,125 @@
+
+
+.container_this{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40% 60%;
+    grid-template-areas:
+    "a c"
+    "b c";
+    padding:20px
+}
+
+
+
+.container_left_up{
+    grid-area: a;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 20px; 
+    padding: 20px 20px;
+    background-color: white;
+    width: 35.125rem;
+    margin-left: 50px;
+}
+
+.container_left_down{
+    grid-area: b;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    width: 35.125rem;
+    background-color: white;
+    padding: 20px;
+    margin-left: 50px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.container_right{
+    grid-area: c;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    width: 35.125rem;
+    background-color: white;
+    padding:20px;
+    margin-top: 20px;
+}
+
+
+.userCard{
+    margin-bottom: 10px; 
+}
+ 
+.userCard img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.card{
+    margin-bottom: 10px;   
+} 
+
+
+.btn-recent-task{
+   
+    width: 123px;
+    height: 30px;
+    left: 258px;
+    top: 521px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+    background-color: #EFAC00;
+    color: white;
+    border: none;
+}
+
+.users__tasks{
+    display: flex;
+    flex-direction:row ;
+    width: 100%;
+    /* margin-bottom: 30px; */
+   padding: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+.title h2{
+    margin-left: 20px;
+}
+.title-right h2{
+    margin-left: 20px;
+}
+
+.title-right{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    margin-right: 13%;
+}
+
+.title-left button{
+    margin-right: 20px;
+}
+.title-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13%;
+
+}
+
+.title-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+}

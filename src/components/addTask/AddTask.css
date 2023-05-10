@@ -1,0 +1,161 @@
+.container__addTask{
+    height: 100%;
+    width: 100rem;
+    padding: 40px;
+
+}
+
+.title__task h2{
+    font-size: 32px;
+}
+.first__line{
+    display: flex;
+    flex-direction: row;
+    /* padding: 40px; */
+}
+
+.project__name{
+    display: flex;
+    flex-direction: column;
+}
+
+::placeholder{
+    padding: 20px;
+}
+
+.project__name input{
+    width: 370px;
+    height: 47px;
+    border-radius: 20px;
+    border: none;
+    margin-top:10px ;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.deadline{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+}
+
+.deadline input{
+    width: 370px;
+    height: 47px;
+    border-radius: 20px;
+    border: none;
+    margin-top:10px ;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.second__line{
+    display: flex;
+    flex-direction: row;
+    /* padding: 40px; */
+}
+
+.assign__user{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.assign__user input{
+    width: 370px;
+    height: 47px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    margin-top:10px ;
+}
+
+.choose__user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.choose__first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choose__first img{
+    margin-right: 10px;
+}
+
+.btnRemove{
+    background-color: #FF633B;
+    color: white;
+    width: 99px;
+    height: 30px;
+    border-radius: 30px;
+    border:none;
+    margin-left:125px ;
+}
+
+.btnRemove:hover{
+    transform: scale(0.9);
+}
+
+.third__line{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.third__line input{
+    width: 754px;
+    height: 95px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.last__line{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    
+}
+
+.last__line__right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.last__line p{
+    color: red;
+    margin-right: 196px;
+    font-size: 18px;
+
+}
+
+.reset{
+    width: 178px;
+    height: 48px;
+    color:#EFAC00 ;
+    border-radius: 20px;
+    border-color: #EFAC00;
+    margin-right: 14px;
+}
+
+.addProj{
+    width: 178px;
+    height: 48px;
+    background-color:#EFAC00 ;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.reset:hover{
+    transform: scale(0.9);
+}
+
+.addProj:hover{
+    transform: scale(0.9);
+}

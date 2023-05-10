@@ -1,0 +1,375 @@
+.title_of_project{
+width: 235px;
+height: 48px;
+font-family: 'Almarai';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: #5F6B7A;
+margin-left:40px;
+margin-top: 40px;
+}
+
+.title_description{
+font-family: 'Almarai';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+color: #5F6B7A;
+}
+
+.title_documentation{
+margin-top: 40px;
+margin-bottom: 20px;  
+font-family: 'Almarai';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+color: #5F6B7A;
+margin-left:80px;
+}
+
+.deadline_text{
+height: 21px;
+font-family: 'Almarai';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+text-align: right;
+color: #71C641;
+margin-top: 10px;
+}
+
+.left_box{
+    background-color: white;
+    margin-top: 20px;
+    margin-left:40px;
+    height: 472px;
+    width: 754px;
+    border: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    
+}
+
+.right_box{
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 14px;
+    height: 472px;
+    width:  370px;
+    border: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+.left_header{
+    margin-top: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.mid_paragraph{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 250px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction:column;
+    text-align: justify;
+}
+.doc{
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #CFD6DE;
+        box-sizing: border-box;
+        border-radius: 100px;
+        height: 46px;
+        width: 330px;
+        font-family: 'Almarai';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align:left;
+        color: #5F6B7A;
+        margin-left:20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+
+.doc_title{
+    font-family: 'Almarai';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align:center;
+        color: #5F6B7A;
+        margin-top: 15px;
+        margin-left: 20px;
+}
+
+.supervisor_text{
+width: 113px;
+height: 36px;
+font-family: 'Almarai';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #5F6B7A;
+margin-left: 20px;
+}
+
+.bottom_icon_name{
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.icon_name{
+width: 150px;
+height: 27px;
+font-family: 'Almarai';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #5F6B7A;
+margin-left: 10px;
+margin-top: 7px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom_documentation{
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-bottom:40px;
+}
+
+.mid_documents{
+    height: 281px;
+    overflow-y: scroll;
+    
+}
+
+.header_tasks{
+    font-family: 'Almarai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #5F6B7A;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1138px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 44px;
+}
+
+.tasks_boxes{
+    margin-left: 40px;
+    margin-bottom: 43px;
+    margin-right: 43px;
+    width: auto;
+    height:40%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    
+}
+
+.paragraphs{
+margin-top: 5px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 15px;
+text-align: justify;
+width: 330px;
+height: 81px;
+font-family: 'Almarai';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #8895A7;
+
+}
+
+.paragraph_1{
+    width: 714px;
+    height: 90px;
+    left: 278px;
+    top: 254px;
+    font-family: 'Almarai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #8895A7; 
+}
+
+.tasks_box{
+width: 370px;
+height: 400px;
+background: #FFFFFF;
+border: 1px solid #E1E7EC;
+box-sizing: border-box;
+box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.05);
+border-radius: 5px;
+display:flex;
+margin-right: 14px;
+margin-top: 20px;
+flex-direction: column;
+
+}
+
+.bottom_task{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title_task{
+width: 165px;
+height: 36px;
+font-family: 'Almarai';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+color: #5F6B7A;
+}
+
+.to_do_button{
+width: 108px;
+height: 26px;
+font-family: 'Almarai';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #FF633B;
+border-radius: 30px;
+border: none;
+}
+
+.header_task{
+ margin-top: 20px;
+ margin-left: 20px;
+ margin-right: 20px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.deadline_task{
+width: 129px;
+height: 21px;
+font-family: 'Almarai';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+color: #71C641;
+}
+
+.task_icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.second_line_task{
+    margin-top:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lorem_paraph{
+    margin-top:0px;
+    
+}
+
+.taken_button{
+background: #74CFF9;
+border-radius: 30px;
+width: 108px;
+height: 26px;
+font-family: 'Almarai';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+border: none;
+}
+
+.in_progress_button{
+    background: #74CFF9;
+    border-radius: 30px;
+    width: 108px;
+    height: 29px;
+    font-family: 'Almarai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    }
+
+.done_button{
+    width: 108px;
+height: 26px;
+font-family: 'Almarai';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #71C641;
+border-radius: 30px;
+border: none;
+}   
+
+.project_description{
+    margin-top: 40px;
+}
+
+.doc_icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+.delete_icon1{
+    margin-left:6px;
+}

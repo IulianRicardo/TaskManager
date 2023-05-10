@@ -1,0 +1,52 @@
+.container__task{
+
+    height: 100%;
+    width: 100rem;
+    padding: 40px;
+}
+
+.header{
+    /* background-color: red; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.header__right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.btnAddTask{
+    width: 178px;
+    height: 48px;
+    color: white;
+    background-color:#00BABA ;
+    border-radius: 30px;
+    border: none;
+}
+
+.btnAddTask:hover{
+   transform: scale(0.9);
+}
+
+.task__cards{
+    display: grid;
+    gap: 0.875rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+    "a b";
+}
+
+.task__cards__left{
+    grid-area: a;
+}
+
+.task__cards__right{
+    grid-area:b;
+}

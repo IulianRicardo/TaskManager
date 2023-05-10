@@ -1,0 +1,188 @@
+.container__task_info{
+    padding: 40px;
+}
+
+.task__title h2{
+    font-size: 32px;
+
+}
+
+.task__title{
+    margin-bottom: 20px;
+}
+p{
+    font-size: 18px;
+  
+}
+
+ h3{
+    font-size: 24px;
+ }
+.task__info__title h6{
+    font-size:14px ;
+    color: green;
+}
+
+.task__info__left__top{
+    grid-area: a;
+    /* width: 50%; */
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    width: 35.125rem;
+
+ 
+}
+
+
+
+.container__task__full{
+    display: grid;
+    gap: 0.9rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80% 50%;
+    grid-template-areas:
+    "a c"
+    "b c";
+}
+
+.task__info__left img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+   
+}
+
+.task__info__title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.task__info__description p{
+    font-size: 18px;
+   
+}
+
+.task__info__supervisor__all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.task__info__supervisor{
+    display: flex;
+    flex-direction: column;
+}
+
+.task__info__user{
+    display: flex;
+    flex-direction: column;
+}
+
+.task__info__user__pic{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.task__info__status{
+    margin-left: 100px;
+}
+
+.task__info__left_down{
+    grid-area: b;
+}
+
+.task__info__buttons{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.goTO{
+    width: 254px;
+    height: 48px;
+    border-radius: 20px;
+    border-color:#EFAC00 ;
+    color:#EFAC00;
+    background-color: white;
+}
+
+.goTO:hover{
+    transform: scale(0.9);
+}
+
+.takeTask{
+    width: 254px;
+    height: 48px;
+    border-radius: 20px;
+    color: white;
+    background-color: #EFAC00;
+    border: none;
+    margin-left: 14px;
+    
+}
+
+.takeTask:hover{
+    transform: scale(0.9);
+}
+
+.task__users_onProj{
+    display: flex;
+    flex-direction: row;
+}
+
+.task__users_onProj img{
+    margin-left: 14px;
+    width: 40px;
+    height: 40px;
+  
+}
+
+.task__info__right{
+    /* display: flex;
+    width: 50%;
+    float: right; */
+    grid-area: c;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    height: 30%;
+}
+
+.task__info__message label{
+    position: relative;
+
+}
+
+.task__info__message input{
+    
+    width: 32.625rem;
+    height: 2.938;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.task__info__right__title{
+    border-bottom: 1px solid black;
+    margin-bottom: 100px;
+}
+
+.task__info__message button{
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    /* display: flex;
+    flex-direction: row; */
+    border: none;
+    background-color: white;
+}
+
+.task__info__message button:hover{
+    transform: scale(0.9);
+}

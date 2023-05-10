@@ -1,0 +1,44 @@
+.up_bar {
+  background-color: #ffffff;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.place {
+  display: flex;
+  width: 50%;
+
+  margin-left: 40px;
+}
+
+.user {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70%;
+  margin-right: 15px;
+}
+.profilePhoto {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.layout {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.contents {
+  width: 100%;
+}
+
+.layout-main-content {
+  height: calc(100vh - 60px);
+  background-color: #c4c4c430;
+  overflow-y: scroll;
+}

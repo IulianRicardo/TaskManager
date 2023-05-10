@@ -1,0 +1,22 @@
+.message {
+  font-family: Almarai;
+  height: 36px;
+  color: #5f6b7a;
+}
+
+.login-titlu-login-success {
+  font-family: Almarai;
+  font-weight: 400px Regular;
+  font-size: 48px;
+  color: #5f6b7a;
+  line: height 72px;
+  margin-bottom: 10px;
+}
+
+.lbl-task-box-login-success {
+  font-size: 50px;
+}
+
+.icon-sent {
+  margin-top: 40px;
+}
